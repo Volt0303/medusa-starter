@@ -12,6 +12,7 @@ const regionMapCache = {
   regionMapUpdated: Date.now(),
 }
 
+
 async function getRegionMap() {
   const { regionMap, regionMapUpdated } = regionMapCache
 
